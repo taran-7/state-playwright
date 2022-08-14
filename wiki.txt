@@ -19,6 +19,7 @@ We suggest that you begin by typing:
 
     npx playwright test
 
-
+Форматирование кода ctrl + alt + L
+Дублирование строки ctrl + D
 
 
