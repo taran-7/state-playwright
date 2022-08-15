@@ -20,6 +20,7 @@ We suggest that you begin by typing:
     npx playwright test
 
 Форматирование кода ctrl + alt + L
+Форматирование кода shift + alt + L
 Дублирование строки ctrl + D
 USERNAME='XXXXXXXXXXXXXX' PASSWORD='XXXXXXXXXXX' npx playwright test --headed
 
