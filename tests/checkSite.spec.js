@@ -12,8 +12,11 @@ test('Login,  Log out', async ({page}) => {
     await page.locator('h1', {hasText: 'Dashboard'})
 
 // chech Dshboard
-    await page.locator('.resource-block-note .ml-auto:visible')
+    await page.locator('.resource-block-note .ml-auto:visible').isVisible()
 // chech Manage My Organization
+    await page.locator('#my-organization:visible').click()
+    await page.locator('[data-cy="manage-organization-address-modal-show"]:visible').isVisible()
+
 // chech Manage All Organizations
 // chech All Devices
 // chech Disaster Recovery
