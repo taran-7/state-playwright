@@ -21,5 +21,7 @@ We suggest that you begin by typing:
 
 Форматирование кода ctrl + alt + L
 Дублирование строки ctrl + D
+USERNAME='XXXXXXXXXXXXXX' PASSWORD='XXXXXXXXXXX' npx playwright test --headed
+
 
 
