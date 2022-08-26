@@ -24,5 +24,6 @@ We suggest that you begin by typing:
 Дублирование строки ctrl + D
 USERNAME='XXXXXXXXXXXXXX' PASSWORD='XXXXXXXXXXX' npx playwright test --headed
 
+npx playwright test checkSite.spec.js --headed
 
 

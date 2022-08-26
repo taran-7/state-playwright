@@ -1,12 +1,15 @@
 // @ts-check
 const { devices } = require('@playwright/test');
 
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
 // require('dotenv').config();
 
+// Read from default ".env" file.
+require('dotenv').config();
 
 /**
  * @see https://playwright.dev/docs/test-configuration
