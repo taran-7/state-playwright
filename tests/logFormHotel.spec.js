@@ -24,7 +24,18 @@ test('Check Login Form of Hotel', async ({ page }) => {
     // button Login
     await page.locator('button[data-theme="primary"]', { hasText: 'Login' }).click()
 
+    // check status code
+    await page.route('**/remote-login', route => {
+        route.fulfill({
+            status: 401,
+            contentType: 'application/json',
+            body: 'Not Found!'
+        });
+    });
+
     // Assertions 
     await page.locator('.system-notifications__text', { hasText: 'Argument 1 passed to' })
+
+
 
 });
