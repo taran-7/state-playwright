@@ -51,6 +51,13 @@ test('Login,  Log out', async ({ page }) => {
         state: "visible"
     })
     // chech Templates & ISOs
+
+    await page.locator('#disasterRecovery').click()
+    page.locator('[data-cy="create-undefined"]').waitFor({
+        state: "visible"
+    })
+
+
     // chech Networking
     // chech Kubernetes
     // chech Persistent Storage
