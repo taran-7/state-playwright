@@ -39,3 +39,4 @@ test('Check Login Form of Hotel', async ({ page }) => {
 
 
 });
+
