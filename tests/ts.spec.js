@@ -9,4 +9,7 @@ test('Check Login Form of Hotel', async ({ page }) => {
     await page.waitForURL('https://tsimagine.com/about/careers/')
     await page.locator('[class="fa fa-lg fa-linkedin-square"]').click()
 
+
+
+
 })
