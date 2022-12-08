@@ -4,3 +4,7 @@ function fakerRandomStateCode() {
     return stateCodes[i];
 }
 console.log(fakerRandomStateCode());
+
+
+
+faker.address.stateAbbr()
