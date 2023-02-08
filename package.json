@@ -1,19 +1,21 @@
 {
-  "name": "tsi_playwright",
+  "name": "state-playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "npx playwright test loginlogoutCB.spec.js --headed"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taran-7/state-playwright.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.25"
+  "bugs": {
+    "url": "https://github.com/taran-7/state-playwright/issues"
   },
-  "dependencies": {
-    "dotenv": "^16.0.1",
-    "playwright": "^1.25.2"
+  "homepage": "https://github.com/taran-7/state-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
   }
 }
